@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-family:"houschka-rounded", "sans-serif";   
+}
+.navbar{
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tabs ul{
+    display: flex;
+    list-style: none;
+}
+.tabs ul li{
+    margin: 20px;
+    text-decoration: none;
+}
+.tabs ul li a{
+    text-decoration: none;
+}
+
+.container{
+    margin-top:30px;
+    padding:30px;
+    min-height: 100vh;
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    position: relative;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text h2{
+    font-size: 2.1rem;
+}
+.text p{
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: justify;
+    padding: 0px 10px;
+    
+}
+.form-container{
+    height: 80vh;
+    position: relative;
+}
+.form-container::before{
+    background-image: url(./images/Love-Png-HD-46.webp);
+    background-repeat: no-repeat;
+    background-size: auto 250px;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+.form{
+    display: flex;
+    padding: 50px 30px;
+    gap:80px;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .form::before{
+    content: "";
+    background-image: url(./images/Love-Png-HD-46.webp);
+    position: absolute;
+    top:50px;
+    left:50px;
+    z-index: 1;
+} */
+.form-group{
+    text-align: center;
+}
+.form-group label{
+    font-size: 20px;
+}
+.form-group input{
+    font-size: 15px;
+    text-align: center;
+    height: 45px;
+    width:  260px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px #888888;
+    outline: transparent;
+}
+.btn{
+    height: 40px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 auto;
+}
+footer{
+    height: 40px;
+    margin:0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:800px
+}
+footer p{
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap:40px;
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
